@@ -26,10 +26,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: A list of 10 numbers
+# 2. Process: The program displays the list, selects one item, calculates the total, sorts the list, and removes the last item
+# 3. Out:The program displays the original list,the selected number (7), the total (63), the sorted list, and the list after removing 11
+# 4. What my list is about, and what I computed from it:My list contains 10 numbers. I calculated their total, which is 63.
+#  This shows the sum of all the numbers before removing an item.
 
 
 # Your code below
@@ -51,6 +52,7 @@ list = [4,5,6,7,8,9,10,11,2,1]
 
 print(list)
 print(list[3])
+print("Total:", sum(list))
 
 sorted_list = list.sort()
 print("Sorted list:", list)
