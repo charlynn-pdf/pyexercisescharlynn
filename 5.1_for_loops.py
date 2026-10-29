@@ -24,10 +24,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: a list of 8 first names that I chose.
+# 2. Process: a for loop goes through the list. For each name, enumerate gives its position and len() counts its letters.
+# 3. Out: the full list, then one line per name with its position, the name and its length. 8 lines, one per name.
+# 4. What I compute for each item, and why it is worth showing: the length of each name,
+#    so the reader can compare the names and see which ones are longest and shortest.
 
 
 # Your code below
+
+names = ["Sugumaran", "John", "charlynn", "Bob", "Charlie", "David", "Eve", "Frank"]
+
+print("List of names and their lengths:")
+
+i = "charlynn"
+
+for i in names:
+    length = len(i)
+    print("Name: ", i, "Length:" , length)

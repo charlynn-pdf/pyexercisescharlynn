@@ -105,3 +105,22 @@ Question: Which method raises a KeyError when the key is absent, and which retur
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 11:41, in .
+
+**Me:** how to write a for loopin python
+
+**Tutor:**
+
+A for loop repeats actions for each item in a sequence.
+
+```python
+# TODO: loop over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+for item in products:
+    print(item)
+```
+
+What is the keyword that starts a for loop in Python?
