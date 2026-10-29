@@ -25,7 +25,7 @@ DELIVERABLE
 """
 
 # 1. In: The user enters a number N
-# 2. Process: The program checks every number from 1 to N. It uses the % 2 to determine if each number is odd or even. 
+# 2. Process: The program checks every number from 1 to N. It uses the % 2 to determine if each number is odd or even 
 # 3. Out: The program displays whether each number is odd or even
 # 4. What happens on 0, on a negative number, on a very large number: if the number is 0 or negative, the program asks for a postive number.
 #  If the number is greater than 100, the the program limits it to 100
