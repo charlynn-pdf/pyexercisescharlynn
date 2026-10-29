@@ -25,10 +25,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: the original list of 10 numbers from exercise 4.0
+# 2. Process: The program creates four different orders of the list
+# 3. Out: the program displays the four reordered lists and the original list at the end. 
+# 4. My four orders, and which ones modify the original: I chose the ascending, descending, reversed and original order. 
+# sorted() and reversed() create new lists.
+# None of these operations modify the original list.
 
 
 # Your code below
+
+numbers = [4,5,6,7,8,9,10,11,2,1]
+
+print("Ascending:",sorted(numbers))
+print("Descending:", sorted(numbers, reverse=True))
+print("Reserved:", list(reversed(numbers)))
+print ("Original order:", numbers)
+
+print("Original list at the end:",numbers)

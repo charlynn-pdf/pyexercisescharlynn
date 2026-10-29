@@ -298,3 +298,23 @@ print(clean_toys)  # Should show ["car", "doll", "ball"]
 ```
 
 What built-in list method removes the first occurrence of a value?
+
+---
+## 2026-10-29 16:08, in .
+
+**Me:** What does [::-1] do?
+
+**Tutor:**
+
+It reverses a sequence (string, list, tuple) using slicing.
+
+```python
+# Example
+text = "hello"
+reversed_text = text[::-1]  # TODO: What will reversed_text contain?
+
+numbers = [1, 2, 3]
+reversed_numbers = numbers[::-1]  # TODO: What will reversed_numbers contain?
+```
+
+What does the slice `[::-1]` mean in terms of start, stop, and step?
