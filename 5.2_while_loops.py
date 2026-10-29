@@ -28,10 +28,15 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: the user's answer to "Do you want to continue? (yes/no)", typed at each attempt.
+# 2. Process:a while loop asks the question again and again. Each answer is cleaned
+#    with .strip().lower(), so "Yes", "yes" and " yes " all count as the same answer.
+# 3. Out: a message saying the user chose to continue or not to continue,
+#    then a summary of the loop.
 # 4. My stop condition, my attempt limit, my summary:
+#    - Stop condition: the user types "yes" or "no" (capitals and extra spaces accepted).
+#    - Attempt limit: 5 attempts. 
+#    - Summary: number of attempts used, and whether the user chose to continue or not
 
 
 # Your code below
