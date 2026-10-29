@@ -170,3 +170,21 @@ while count < 5:
 ```
 
 What is the last value printed by this loop?
+
+---
+## 2026-10-29 14:10, in .
+
+**Me:** how can i change a sentence to uppercase and remove extra spaces
+
+**Tutor:**
+
+String manipulation: uppercasing and removing extra spaces.
+
+```python
+def clean_sentence(text):
+    # TODO: uppercase the text and remove extra spaces
+    cleaned = text.strip().replace("  ", " ")
+    return cleaned
+```
+
+What does `strip()` do before the replace?
