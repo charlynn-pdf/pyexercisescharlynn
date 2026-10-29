@@ -23,10 +23,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+
+# 1. In: The user enters their name, age, city, and country.
+
+# 2. Process: The program stores the information in a dictionary,displays the values, and removes the age field.
+
+# 3. Out: The program displays the person's information, their removed age, and the remaining dictionary.
+
+# 4. My object, my five fields, and why those: My object is a person. The fields are name, age, city, country, and occupation.
+# They describe the person's identity and background.
+
 
 
 # Your code below
@@ -54,7 +60,9 @@ print("The person's age is ", person["age"])
 print("The person's city is ", person["city"])
 print("The person's country is ", person["country"])
 
-person.pop("age")
+person_age = person.pop("age")
+print("The person's age was: ", person_age)
+print("The person's remaining fields are: ", person)
        
  
 

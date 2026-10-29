@@ -318,3 +318,21 @@ reversed_numbers = numbers[::-1]  # TODO: What will reversed_numbers contain?
 ```
 
 What does the slice `[::-1]` mean in terms of start, stop, and step?
+
+---
+## 2026-10-29 16:18, in .
+
+**Me:** how do i display all dictionary keys?
+
+**Tutor:**
+
+Displaying all dictionary keys.
+
+```python
+# Use the .keys() method to get all keys
+my_dict = {"alpha": 1, "beta": 2, "gamma": 3}
+keys_list = my_dict.keys()  # TODO: Replace with your dictionary variable
+print(keys_list)
+```
+
+What function returns the keys of a dictionary?
