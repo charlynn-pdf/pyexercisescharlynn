@@ -24,10 +24,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: The user enter two numbers
+# 2. Process: The program calculates the sum, difference, product, and division of the two numbers. 
+# It checks if the second number is zero before dividing.  
+# 3. Out: The program displays the results of the four operations. 
+# 4. What happens when the second number is zero, and why: The program displays "The second number is 0" because division by 0 is not allowed in Python. and the if statement prevents a zero division error. 
 
 
 # Your code below
